@@ -16,7 +16,7 @@ cobros en tu Stripe. Los pasos van en orden y cada uno dice cómo comprobar que 
    - **No** marques "Add a README", ".gitignore" ni "license". El repositorio debe quedar vacío.
 2. En el repositorio, entra a **Settings → Collaborators → Add people** e invita a Ludwig con su usuario de
    GitHub.
-3. Mándale a Ludwig por Slack la dirección del repositorio, por ejemplo `github.com/TU-USUARIO/yajos`.
+3. Mándale a Ludwig por Slack la dirección del repositorio, por ejemplo `github.com/jairyajos/yajos`.
    Él sube el código.
 
 ✅ **Para comprobar:** al recargar la página del repositorio ves las carpetas `web`, `docs` e
@@ -56,10 +56,10 @@ browser":
 gh auth login
 ```
 
-**Descarga el proyecto.** Cambia `TU-USUARIO` por tu usuario de GitHub:
+**Descarga el proyecto.** Ya está tu usuario puesto:
 
 ```bash
-mkdir -p ~/Proyectos && gh repo clone TU-USUARIO/yajos ~/Proyectos/yajos
+mkdir -p ~/Proyectos && gh repo clone jairyajos/yajos ~/Proyectos/yajos
 ```
 
 ✅ **Para comprobar:** `node -v` muestra una versión 20 o mayor, y existe la carpeta `~/Proyectos/yajos`.
