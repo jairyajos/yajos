@@ -1,0 +1,31 @@
+# Secretos: nunca se suben. Las llaves viven en Vercel y en web/.env.local.
+.env*
+!.env.example
+
+# Dependencias y compilados
+node_modules/
+.next/
+.vercel/
+*.tsbuildinfo
+next-env.d.ts
+.DS_Store
+Thumbs.db
+
+# Configuración personal de Claude Code (la compartida sí se sube)
+.claude/settings.local.json
+
+# Material interno de maestria.studio: método, costos y modelo comercial.
+docs/00-metodo.md
+docs/01-diagnostico-yajos.md
+docs/02-bitacora.md
+docs/03-decisiones.md
+docs/04-baseline-antes-despues.md
+docs/README-maestria.md
+docs/*.docx
+costos/
+baseline/
+
+# Pruebas de generación descartadas
+IMAGESANDVIDEOS/higgsfield/resultados/
+IMAGESANDVIDEOS/higgsfield/cuadros/
+IMAGESANDVIDEOS/demos/
